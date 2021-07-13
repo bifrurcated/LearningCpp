@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cec1ee84-2b46-4e2a-b9b1-32eb931800ed}</ProjectGuid>
-    <RootNamespace>CppClass</RootNamespace>
+    <ProjectGuid>{4175887f-c221-46a1-ac97-802087c836fd}</ProjectGuid>
+    <RootNamespace>FileWork</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,66 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AgregationAndComposition.cpp" />
-    <ClCompile Include="Cat.cpp" />
-    <ClCompile Include="CppClass.cpp" />
-    <ClCompile Include="DelegateConstructor.cpp" />
-    <ClCompile Include="ExecuteMethodBasicClass.cpp" />
-    <ClCompile Include="InnerClass.cpp" />
-    <ClCompile Include="Interface.cpp" />
-    <ClCompile Include="MultipleInheritance.cpp" />
-    <ClCompile Include="Polymorphism.cpp" />
-    <ClCompile Include="TestingClass.cpp" />
-    <ClCompile Include="inheritance.cpp" />
-    <ClCompile Include="VirtualDestructor.cpp" />
+    <ClCompile Include="FileWork.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apple.h" />
-    <ClInclude Include="Bazooka.h" />
-    <ClInclude Include="BraketsMasg.h" />
-    <ClInclude Include="Cap.h" />
-    <ClInclude Include="Cat.hpp" />
-    <ClInclude Include="Character.h" />
-    <ClInclude Include="CoffeeGrinder.h" />
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="ExtramuralStudent.h" />
-    <ClInclude Include="GPU.h" />
-    <ClInclude Include="GraphicCard.h" />
-    <ClInclude Include="Gun.h" />
-    <ClInclude Include="Car.h" />
-    <ClInclude Include="Airplain.h" />
-    <ClInclude Include="FlyingCar.h" />
-    <ClInclude Include="Memory.h" />
-    <ClInclude Include="Orc.h" />
-    <ClInclude Include="OrcWarrior.h" />
-    <ClInclude Include="SimpleBicycle.h" />
-    <ClInclude Include="HumanRide.h" />
-    <ClInclude Include="IBicycle.h" />
-    <ClInclude Include="HeaderA.h" />
-    <ClInclude Include="HeaderB.h" />
-    <ClInclude Include="HumanDelegate.h" />
-    <ClInclude Include="Knife.h" />
-    <ClInclude Include="Msg.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Printer.h" />
-    <ClInclude Include="SportBicycle.h" />
-    <ClInclude Include="SubmachineGun.h" />
-    <ClInclude Include="Human.h" />
-    <ClInclude Include="HumanBrain.h" />
-    <ClInclude Include="Image.h" />
-    <ClInclude Include="Model.h" />
-    <ClInclude Include="MyClass.h" />
-    <ClInclude Include="People.h" />
-    <ClInclude Include="Point.h" />
-    <ClInclude Include="Professor.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="Test.h" />
-    <ClInclude Include="TestClass.h" />
-    <ClInclude Include="Warrior.h" />
-    <ClInclude Include="Weapon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <Text Include="myfile.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
