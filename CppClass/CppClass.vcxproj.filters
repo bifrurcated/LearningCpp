@@ -170,7 +170,16 @@
     <ClInclude Include="FlyingCar.h">
       <Filter>Файлы заголовков\Множественное наследование</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="IBicycle.h">
+      <Filter>Файлы заголовков\Интерфейсы</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanRide.h">
+      <Filter>Файлы заголовков\Интерфейсы</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBicycle.h">
+      <Filter>Файлы заголовков\Интерфейсы</Filter>
+    </ClInclude>
+    <ClInclude Include="SportBicycle.h">
       <Filter>Файлы заголовков\Интерфейсы</Filter>
     </ClInclude>
   </ItemGroup>
