@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Наследование">
+      <UniqueIdentifier>{ffee51ef-af59-4b2d-884e-c611e267a13f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Агрегация и композиция">
+      <UniqueIdentifier>{e5cf8ef7-6a0e-46f3-8240-81167b272a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Разное">
+      <UniqueIdentifier>{e110cf51-2e9c-42a7-a953-94aec6ef3510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Полиморфизм">
+      <UniqueIdentifier>{d572ab76-c058-4df4-995f-67073100792e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Виртуальный деструктор">
+      <UniqueIdentifier>{ef3db33a-b495-4ffb-8cb3-87d20416600e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Делегирующий конструктор">
+      <UniqueIdentifier>{e216a2d5-3bfd-442e-8f7a-6d1c955c3a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Вызов метода базового класса">
+      <UniqueIdentifier>{fb06760d-7117-4984-9419-879d95b0b003}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Множественное наследование">
+      <UniqueIdentifier>{ff89b839-e7d4-46f8-a0c3-d7973e5dd03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Интерфейсы">
+      <UniqueIdentifier>{1f31dac9-d4e5-4d2d-af88-51f9648620b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CppClass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TestingClass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="InnerClass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AgregationAndComposition.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="inheritance.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Polymorphism.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualDestructor.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DelegateConstructor.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ExecuteMethodBasicClass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="People.h">
+      <Filter>Файлы заголовков\Наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Файлы заголовков\Наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="Professor.h">
+      <Filter>Файлы заголовков\Наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanBrain.h">
+      <Filter>Файлы заголовков\Агрегация и композиция</Filter>
+    </ClInclude>
+    <ClInclude Include="Cap.h">
+      <Filter>Файлы заголовков\Агрегация и композиция</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Файлы заголовков\Агрегация и композиция</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.hpp">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeGrinder.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClass.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClass.h">
+      <Filter>Файлы заголовков\Разное</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtramuralStudent.h">
+      <Filter>Файлы заголовков\Наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="SubmachineGun.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="Bazooka.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="Knife.h">
+      <Filter>Файлы заголовков\Полиморфизм</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderA.h">
+      <Filter>Файлы заголовков\Виртуальный деструктор</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderB.h">
+      <Filter>Файлы заголовков\Виртуальный деструктор</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanDelegate.h">
+      <Filter>Файлы заголовков\Делегирующий конструктор</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg.h">
+      <Filter>Файлы заголовков\Вызов метода базового класса</Filter>
+    </ClInclude>
+    <ClInclude Include="Printer.h">
+      <Filter>Файлы заголовков\Вызов метода базового класса</Filter>
+    </ClInclude>
+    <ClInclude Include="BraketsMasg.h">
+      <Filter>Файлы заголовков\Вызов метода базового класса</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>Файлы заголовков\Множественное наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="Airplain.h">
+      <Filter>Файлы заголовков\Множественное наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingCar.h">
+      <Filter>Файлы заголовков\Множественное наследование</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков\Интерфейсы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

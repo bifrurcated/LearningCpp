@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c0035bf9-1606-4967-a259-c0c80051900f}</ProjectGuid>
-    <RootNamespace>LearningCpp</RootNamespace>
+    <ProjectGuid>{bd4cf0d0-d911-44c9-b40b-8974f8520b30}</ProjectGuid>
+    <RootNamespace>GameStats</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,27 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CompaleCondition.cpp" />
-    <ClCompile Include="DynamicMassiceWithFunction.cpp" />
-    <ClCompile Include="DynmaicMassice.cpp" />
-    <ClCompile Include="FunctionPrototype.cpp" />
-    <ClCompile Include="LearningCpp.cpp" />
-    <ClCompile Include="LinkTemplate.cpp" />
-    <ClCompile Include="MassivAndAlgo.cpp" />
-    <ClCompile Include="MassiveUkaz.cpp" />
-    <ClCompile Include="Preprocessor.cpp" />
-    <ClCompile Include="Recursion.cpp" />
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="TemplateAndUkaz.cpp" />
-    <ClCompile Include="TernaryOperator.cpp" />
-    <ClCompile Include="UkazFunction.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="max1.hpp" />
-    <ClInclude Include="maxdecltype.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="maxauto.hpp" />
+    <ClCompile Include="GameStats.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
