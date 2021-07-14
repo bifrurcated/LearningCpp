@@ -139,9 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ExteptionHadling.cpp" />
     <ClCompile Include="FileWork.cpp" />
     <ClCompile Include="FstreamReadWrite.cpp" />
     <ClCompile Include="InputFile.cpp" />
+    <ClCompile Include="OperatorInOut.cpp" />
     <ClCompile Include="OutputFile.cpp" />
     <ClCompile Include="SaveReadObjectClass.cpp" />
   </ItemGroup>
