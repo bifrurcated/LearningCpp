@@ -140,9 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FileWork.cpp" />
+    <ClCompile Include="FstreamReadWrite.cpp" />
+    <ClCompile Include="InputFile.cpp" />
+    <ClCompile Include="OutputFile.cpp" />
+    <ClCompile Include="SaveReadObjectClass.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Point.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fstreamRW.txt" />
     <Text Include="myfile.txt" />
+    <Text Include="operatorInOut.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

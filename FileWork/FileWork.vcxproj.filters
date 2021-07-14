@@ -18,9 +18,32 @@
     <ClCompile Include="FileWork.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="OutputFile.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="InputFile.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveReadObjectClass.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="FstreamReadWrite.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="myfile.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="fstreamRW.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="operatorInOut.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>
