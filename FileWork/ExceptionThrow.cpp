@@ -16,7 +16,7 @@ void Foo(int value) {
 	cout << "Переменная = " << value << endl;
 }
 
-int main()
+int ExceptionThrow()
 {
 	setlocale(LC_ALL, "RU");
 	try {
