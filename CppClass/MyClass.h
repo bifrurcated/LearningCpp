@@ -1,17 +1,17 @@
 #pragma once
 #include <iostream>
-class MyClass {
+class MyClass1 {
 private:
 	int *data;
 	int size;
 public:
-	MyClass(int size);
-	MyClass(MyClass const& other);
-	~MyClass();
-	MyClass& operator=(MyClass const& other);
+	MyClass1(int size);
+	MyClass1(MyClass1 const& other);
+	~MyClass1();
+	MyClass1& operator=(MyClass1 const& other);
 };
 
-MyClass::MyClass(int size) {
+MyClass1::MyClass1(int size) {
 	this->size = size;
 	this->data = new int[size];
 	for (int i = 0; i < size; i++)
@@ -20,7 +20,7 @@ MyClass::MyClass(int size) {
 	}
 	std::cout << "Вызвался конструктор " << this << std::endl;
 }
-MyClass::MyClass(MyClass const& other)
+MyClass1::MyClass1(MyClass1 const& other)
 {
 	std::cout << "Вызвался конструктор копирования " << this << std::endl;
 	this->size = other.size;
@@ -30,13 +30,13 @@ MyClass::MyClass(MyClass const& other)
 		this->data[i] = other.data[i];
 	}
 }
-MyClass::~MyClass() {
+MyClass1::~MyClass1() {
 	delete[] data;
 	data = nullptr;
 	std::cout << "Вызвался деструктор " << this << std::endl;
 }
 
-MyClass& MyClass::operator=(MyClass const& other)
+MyClass1& MyClass1::operator=(MyClass1 const& other)
 {
 	std::cout << "Вызвался оператор присваивания" << this << std::endl;
 	this->size = other.size;

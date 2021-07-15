@@ -1,6 +1,18 @@
 ﻿#include <iostream>
+#include <string>
+
+using namespace std;
+
+/*
+    smart pointer
+*/
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "RU");
+    
+   
+
+    return 0;
 }

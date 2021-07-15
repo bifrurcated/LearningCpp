@@ -3,9 +3,9 @@
 
 using namespace std;
 
-template<typename T>
-void swapValue(T& pa, T& pb) {
-    T tmp = pa;
+template<typename T1>
+void swapValue(T1& pa, T1& pb) {
+    T1 tmp = pa;
     pa = pb;
     pb = tmp;
 }

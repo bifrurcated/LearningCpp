@@ -139,7 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Enum.cpp" />
+    <ClCompile Include="InheritanceTemplate.cpp" />
+    <ClCompile Include="NameSpace.cpp" />
     <ClCompile Include="Other124-135.cpp" />
+    <ClCompile Include="SpecializedTemplates.cpp" />
+    <ClCompile Include="templateClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyClass.h" />
+    <ClInclude Include="PC.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="TypeInfo.h" />
+    <ClInclude Include="TypeSize.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

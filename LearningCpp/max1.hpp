@@ -1,7 +1,7 @@
 #pragma once
 //1.1. Первое знакомство с шаблонами функций
-template<typename T>
-T max(T a, T b) {
+template<typename T1>
+T1 max(T1 a, T1 b) {
 	return b < a ? a : b;
 }
 

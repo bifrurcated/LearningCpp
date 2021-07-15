@@ -9,15 +9,15 @@
 
 using namespace std;
 
-void Foo(MyClass value)
+void Foo(MyClass1 value)
 {
     cout << "Вызвалась функция Foo" << endl;
 }
 
-MyClass Foo2()
+MyClass1 Foo2()
 {
     cout << "Вызвалась функция Foo2" << endl;
-    MyClass temp(1);
+    MyClass1 temp(1);
     return temp;
 }
 
@@ -56,9 +56,9 @@ int TestingClass()
 
 
     {
-        MyClass a(10);
-        MyClass b(2);
-        MyClass c(5);
+        MyClass1 a(10);
+        MyClass1 b(2);
+        MyClass1 c(5);
         c = a = b;
     }
 
