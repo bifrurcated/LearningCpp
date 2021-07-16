@@ -30,7 +30,7 @@ struct MyStruct1 { // по умолчанию все поля public и при наследовании тоже
 struct MyStruct2 : MyClass2 { // по умолчанию public наследование
 };
 
-int main()
+int StructClass()
 {
     //Структуры это тоже самое что и классы но по умолчанию там используется модификатор public
     setlocale(LC_ALL, "RU");

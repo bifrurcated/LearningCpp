@@ -4,7 +4,7 @@ class TestClass {
 public:
 	int& operator[](int index) {
 		if (index < 0 || index >= 5) {
-			throw exception("Out of array size!");
+			throw "Out of array size!";
 		}
 		return arr[index];
 	}
