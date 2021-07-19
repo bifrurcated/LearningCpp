@@ -1,16 +1,19 @@
 ﻿#include <iostream>
+#include "MyClass.h"
 
 using namespace std;
 
 /*
-	typedef
+* Многофайловый проект
 */
+
 
 int main()
 {
 	setlocale(LC_ALL, "RU");
 	
-	
+	myNamespace::MyClass m;
+	m.PrintMessage("Multifile project");
 
 	return 0;
 }

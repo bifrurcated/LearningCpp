@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{52f437bf-3548-4979-9b5d-ee097a0d1a5c}</ProjectGuid>
-    <RootNamespace>LibrarySTL</RootNamespace>
+    <ProjectGuid>{727016d3-f148-4c1b-bcbc-eaf36299d1e9}</ProjectGuid>
+    <RootNamespace>ThreadLesson</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,28 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Array.cpp" />
-    <ClCompile Include="Auto.cpp" />
-    <ClCompile Include="Deque.cpp" />
-    <ClCompile Include="ForEach.cpp" />
-    <ClCompile Include="ForwardList.cpp" />
-    <ClCompile Include="IteratorVector.cpp" />
-    <ClCompile Include="LibrarySTL.cpp" />
-    <ClCompile Include="List.cpp" />
-    <ClCompile Include="Map.cpp" />
-    <ClCompile Include="Multimap.cpp" />
-    <ClCompile Include="MultiSet.cpp" />
-    <ClCompile Include="MyClass.cpp" />
-    <ClCompile Include="OperatorEqual.cpp" />
-    <ClCompile Include="PriorityQueue.cpp" />
-    <ClCompile Include="Queue.cpp" />
-    <ClCompile Include="Set.cpp" />
-    <ClCompile Include="Stack.cpp" />
-    <ClCompile Include="TypeDef.cpp" />
-    <ClCompile Include="Vector.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="MyClass.h" />
+    <ClCompile Include="ThreadLesson.cpp" />
+    <ClCompile Include="ThreadParam.cpp" />
+    <ClCompile Include="ThreadReturnRef.cpp" />
+    <ClCompile Include="Thread_1.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
