@@ -139,10 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DurationTimer.cpp" />
+    <ClCompile Include="ThreadLambda.cpp" />
     <ClCompile Include="ThreadLesson.cpp" />
     <ClCompile Include="ThreadParam.cpp" />
     <ClCompile Include="ThreadReturnRef.cpp" />
     <ClCompile Include="Thread_1.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SimpleTimer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

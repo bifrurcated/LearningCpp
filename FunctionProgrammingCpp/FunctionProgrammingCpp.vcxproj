@@ -141,8 +141,17 @@
   <ItemGroup>
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="FunctionProgrammingCpp.cpp" />
+    <ClCompile Include="Functor.cpp" />
+    <ClCompile Include="LambdaContext.cpp" />
     <ClCompile Include="LambdaFunc.cpp" />
+    <ClCompile Include="Predicate.cpp" />
     <ClCompile Include="Union.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EvenFunctor.h" />
+    <ClInclude Include="MyClass.h" />
+    <ClInclude Include="MyFunctor.h" />
+    <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
