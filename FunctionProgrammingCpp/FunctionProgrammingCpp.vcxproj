@@ -145,6 +145,10 @@
     <ClCompile Include="LambdaContext.cpp" />
     <ClCompile Include="LambdaFunc.cpp" />
     <ClCompile Include="Predicate.cpp" />
+    <ClCompile Include="SearchCopy.cpp" />
+    <ClCompile Include="SearchFind.cpp" />
+    <ClCompile Include="SearchRemove.cpp" />
+    <ClCompile Include="SortAlgo.cpp" />
     <ClCompile Include="Union.cpp" />
   </ItemGroup>
   <ItemGroup>

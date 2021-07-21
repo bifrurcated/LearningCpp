@@ -16,6 +16,7 @@ bool GreaterThanZero(int value) {
 bool LessThanZero(int value) {
 	return value < 0;
 }
+
 int Predicate()
 {
 	setlocale(LC_ALL, "RU");
