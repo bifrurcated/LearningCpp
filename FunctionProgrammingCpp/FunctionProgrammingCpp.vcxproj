@@ -139,6 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlgoAccumulate.cpp" />
+    <ClCompile Include="AlgoEqualMismatch.cpp" />
+    <ClCompile Include="AlgoEqualPredicate.cpp" />
+    <ClCompile Include="AlgoForEach.cpp" />
+    <ClCompile Include="AlgoRandomShuffle.cpp" />
+    <ClCompile Include="AlgoUnique.cpp" />
     <ClCompile Include="Function.cpp" />
     <ClCompile Include="FunctionProgrammingCpp.cpp" />
     <ClCompile Include="Functor.cpp" />
@@ -147,15 +153,23 @@
     <ClCompile Include="Predicate.cpp" />
     <ClCompile Include="SearchCopy.cpp" />
     <ClCompile Include="SearchFind.cpp" />
+    <ClCompile Include="SearchMax.cpp" />
+    <ClCompile Include="SearchMinAndMinmax.cpp" />
     <ClCompile Include="SearchRemove.cpp" />
     <ClCompile Include="SortAlgo.cpp" />
     <ClCompile Include="Union.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CatAction.h" />
+    <ClInclude Include="DogAction.h" />
     <ClInclude Include="EvenFunctor.h" />
+    <ClInclude Include="IAction.h" />
     <ClInclude Include="MyClass.h" />
     <ClInclude Include="MyFunctor.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="SleepAction.h" />
+    <ClInclude Include="TeaAction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

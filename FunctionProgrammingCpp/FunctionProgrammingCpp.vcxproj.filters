@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Файлы заголовков\СлучайныеДанные">
+      <UniqueIdentifier>{442bd64f-691f-4792-879c-b3cc4955e81c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FunctionProgrammingCpp.cpp">
@@ -48,6 +51,30 @@
     <ClCompile Include="SearchRemove.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="SearchMax.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchMinAndMinmax.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoAccumulate.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoEqualMismatch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoEqualPredicate.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoForEach.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoUnique.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgoRandomShuffle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyClass.h">
@@ -61,6 +88,24 @@
     </ClInclude>
     <ClInclude Include="Person.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IAction.h">
+      <Filter>Файлы заголовков\СлучайныеДанные</Filter>
+    </ClInclude>
+    <ClInclude Include="CatAction.h">
+      <Filter>Файлы заголовков\СлучайныеДанные</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaAction.h">
+      <Filter>Файлы заголовков\СлучайныеДанные</Filter>
+    </ClInclude>
+    <ClInclude Include="DogAction.h">
+      <Filter>Файлы заголовков\СлучайныеДанные</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepAction.h">
+      <Filter>Файлы заголовков\СлучайныеДанные</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

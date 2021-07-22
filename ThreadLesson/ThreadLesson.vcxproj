@@ -140,13 +140,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DurationTimer.cpp" />
+    <ClCompile Include="ThreadLock_Guard.cpp" />
+    <ClCompile Include="ThreadMutex.cpp" />
+    <ClCompile Include="ThreadClass.cpp" />
     <ClCompile Include="ThreadLambda.cpp" />
     <ClCompile Include="ThreadLesson.cpp" />
+    <ClCompile Include="ThreadMutexDeadlock.cpp" />
     <ClCompile Include="ThreadParam.cpp" />
+    <ClCompile Include="ThreadRecursiveMutex.cpp" />
     <ClCompile Include="ThreadReturnRef.cpp" />
+    <ClCompile Include="ThreadUniqueLock.cpp" />
     <ClCompile Include="Thread_1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MyClass.h" />
     <ClInclude Include="SimpleTimer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
