@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int GameStats()
 {
     int score;
     double distance;
